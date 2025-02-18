@@ -1,6 +1,6 @@
 let light =document.querySelector("#light")
 let buttonOn= document.querySelector("#btnOn")
-let buttonOf= document.querySelector("#btnOff")
+let buttonOff= document.querySelector("#btnOff")
 
 
 buttonOn.addEventListener("click", ()=> {
@@ -9,6 +9,7 @@ buttonOn.addEventListener("click", ()=> {
 
 
 
-buttonOf.addEventListener("click", ()=> {
-    light.style.backgroundColor ="blue"
+buttonOff.addEventListener("click", ()=> {
+    light.style.backgroundColor = "blue"
 })
+
